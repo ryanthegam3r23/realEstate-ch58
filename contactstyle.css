@@ -48,20 +48,38 @@ h3{
     margin-right: 20px; 
     color: black;
 }
-/*main*/
+/*contact*/
 .contact-container{
     text-align: center;
     margin-left: 100px;
     margin-right: 100px;
 }
-.contact-item{
+.form-container{
+    display: flex;
+    flex-direction: column;
     background-color: rgb(241, 237, 237);
-    margin-left: 200px;
     margin-right: 200px;
-    height: 1000px;
+    margin-left: 200px;
 }
-.contact-set{
-    height: 200px;
+.form{
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 7rem;
+}
+.input-container{
+    display: flex;
+    margin-bottom: 20px;
+}
+.input-container label{
+    width: 20%;
+}
+.input-container input, .input-container textarea{
+    padding: 5px;
+    border: 1px solid gray;
+    width: 80%;
+}
+.input-field{
+    border-radius: 2rem;
 }
 /*footer*/
 .site-footer{
