@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contactstyle.css">
+    <title>Contact</title>
+
+
+</head>
+<body>
+    <!--header-->
+    <header class="site-header">
+        <div>
+            <div class="nav-bar">
+                <h1>RealEstate</h1>
+                <nav class="menu">
+                    <a href="about.html">About</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="contact-container">
+        <h2>Contact</h2>
+        <h3>Fill the next infromation</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, odio necessitatibus et, unde velit praesentium cupiditate quidem.</p>
+
+    </main>
+    <!--form-->
+    <form class="contact-item">
+        <fieldset>
+            <legend>Personal Information</legend>
+        <div>
+            <label>Name:</label>
+            <input type="text">
+        </div>
+
+        <div>
+            <label for="email">Email:</label>
+            <input id="email" type="email">
+        </div>
+
+        <div>
+            <label>Phone Number:</label>
+            <input type="number">
+        </div>
+
+        <div>
+            <label>Message:</label>
+            <textarea maxlength="50"></textarea>
+        </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Product Information</legend>
+            <div>
+                <label>Type:</label>
+                <select>
+                    <option value="option 1">Option #1</option>
+                    <option value="option 2">Option #2</option>
+                    <option value="option 3">Option #3</option>
+                </select>
+            </div>
+            <div>
+                <label>Number:</label>
+                <input type="number">
+            </div>  
+        </fieldset>
+        <fieldset>
+            <legend>Contact Information</legend>
+            <div>
+            Email: <input name="status" type="radio" value="active">
+            Phone: <input name="status" type="radio" value="inactive">
+            </div>
+            <div>
+                Date: <input name="Date" type="date">
+                Hour: <input name="Time" type="time">
+            </div>
+        </fieldset>              
+    </form>
+    <footer class="site-footer">
+            <p>Powered by Zillow</p>
+            <p>Copyright &copy; 2024 | Privacy Policy</p>
+            <p>placeholder</p>
+    </footer> 
+</body>
+</html>

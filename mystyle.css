@@ -77,11 +77,15 @@ ul li{
 
 .houses-container{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between
+    gap: 24px;
 }
 .houses-item{
     background-color: lightgray;
+    
+}
+.houses-icon{
+    display: flex;
+    justify-content: space-evenly;
 }
 .houses-item-text{
     padding: 1rem;
