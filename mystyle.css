@@ -31,6 +31,11 @@ h4{
     font-size: 1.6rem;
     margin:1rem 0;
 }
+@media(max-width:768px){
+    h2,h3,h4{
+        text-align: center;
+    }
+}
 img{
     max-width: 100%;
 }
@@ -41,6 +46,11 @@ ul li{
 .container{
     width:80%;
     margin: 0 auto;
+}
+@media(max-width:768px){
+    .container{
+        width: 95%;
+    }
 }
 .btn-details{
     display: block;
@@ -70,19 +80,41 @@ ul li{
     align-items: center;
     height: 10vh;
 }
+@media(max-width:768px){
+    .menu-bar{
+        flex-direction: column;
+        margin-bottom: 3rem;
+    }
+}
 /*main*/
 .about-container{
     display:flex;
+}
+
+@media(max-width:768px){
+    .about-container{
+        flex-direction: column;
+    }
+    .about-item{
+        text-align: center;
+    }
 }
 
 .houses-container{
     display: flex;
     gap: 24px;
 }
+@media(max-width:768px){
+    .houses-container{
+        flex-direction: column;
+    }
+}
+
 .houses-item{
     background-color: lightgray;
     
 }
+
 .houses-icon{
     display: flex;
     justify-content: space-evenly;

@@ -48,6 +48,11 @@ h3{
     margin-right: 20px; 
     color: black;
 }
+@media(min-width:768px){
+    .nav-bar{
+        flex-direction: column;
+    }
+}
 /*contact*/
 .contact-container{
     text-align: center;
@@ -60,6 +65,8 @@ h3{
     background-color: rgb(241, 237, 237);
     margin-right: 200px;
     margin-left: 200px;
+    padding: 1rem;
+    border-radius: 1rem;
 }
 .form{
     padding: 20px;
@@ -68,7 +75,7 @@ h3{
 }
 .input-container{
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 .input-container label{
     width: 20%;
