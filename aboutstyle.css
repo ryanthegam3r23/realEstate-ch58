@@ -33,8 +33,9 @@ h3{
 .site-header{
     height: 250px;
     background-color: orange;
-  
 }
+
+
 /*menu*/
 .nav-bar{
     display: flex;
@@ -48,48 +49,24 @@ h3{
     margin-right: 20px; 
     color: black;
 }
-/*contact*/
-.contact-container{
+
+/*main*/
+.about-real{
     text-align: center;
-    margin-left: 100px;
-    margin-right: 100px;
-}
-.form-container{
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(241, 237, 237);
-    margin-right: 200px;
-    margin-left: 200px;
-    padding: 1rem;
-    border-radius: 1rem;
+    margin-top: 3rem;
     margin-bottom: 3rem;
 }
-.form{
-    padding: 20px;
-    margin-top: 50px;
-    border-radius: 7rem;
+
+.blog-container{
+    padding: 100px;
+    text-align: center;
+    
 }
-.input-container{
+
+.main-flex{
     display: flex;
-    margin-bottom: 7rem;
 }
-.input-container label{
-    width: 20%;
-}
-.input-container input, .input-container textarea{
-    padding: 5px;
-    border: 1px solid gray;
-    width: 80%;
-}
-.input-field{
-    border-radius: 2rem;
-}
-.houses-icon{
-    display: flex;
-    justify-content: space-evenly;
-    list-style: none;
-    gap: 2rem;
-}
+
 /*footer*/
 .site-footer{
     background-color: black;
@@ -98,3 +75,11 @@ h3{
     background-color: rgb(241, 237, 237);
 
 }
+
+.houses-icon{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    gap: 2rem;
+}
+
